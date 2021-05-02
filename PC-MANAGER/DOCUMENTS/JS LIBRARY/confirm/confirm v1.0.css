@@ -1,0 +1,112 @@
+body{
+    font-family: monospace;
+    background-size: 100%;
+    
+}
+
+#confirm{
+    background-color: rgba(161, 161, 161, 0.5);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    overflow: auto;
+    z-index: 1;
+    top:0;
+    left: 0;
+    padding: 1em;
+
+}
+
+#confirm-header{
+    background: linear-gradient(to right, rgba(0, 89, 255, 0.479) , rgba(82, 181, 219, 0.219));
+    padding: 0.5em;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#confirm-footer{
+    /* background: linear-gradient(to left, rgba(0, 89, 255, 0.479) , rgba(82, 181, 219, 0.219)); */
+    padding: 0.5em;
+    color:white;
+    display: flex;
+    flex-flow: row;
+    background: white;
+    
+}
+#confirm-body{
+    background: rgba(255, 254, 254);
+    padding: 5em;
+}
+
+#confirm-content{
+    display: inline-block;
+    box-shadow: 0px 0px 10px gray;
+    border-radius: 1em;
+    text-align: center;
+    margin: 15%;
+    width: 60%;
+    animation-name: adjust;
+}
+
+#close{
+    border: none;
+    padding: 1em;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.644);
+    border-radius: 0.5em;
+    background:linear-gradient(rgba(81, 81, 218, 0.425), rgba(0, 183, 255, 0.63)) ;
+    color: white;
+}
+
+#close:hover{
+    background: linear-gradient(rgba(0, 183, 255, 0.185),rgba(0, 0, 255, 0.247));
+    box-shadow: 0px 0px 10px black;
+}
+#close:active{
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.575);
+}
+
+#confirm-yes{
+    border: none;
+    padding: 1em;
+    width: 100%;
+    height: 100%;
+    margin: 1%;
+    background: linear-gradient(to right, rgba(245, 245, 245, 0.603), rgba(105, 105, 105, 0.226));
+    border: none;
+    box-shadow: 0px 0px 2px gray;
+    border-radius: 0.5em;
+}
+
+#confirm-no{
+    border: none;
+    padding: 1em;
+    width: 100%;
+    height: 100%;
+    margin: 1%;
+    background: linear-gradient(to left, rgba(245, 245, 245, 0.603), rgba(105, 105, 105, 0.226));
+    border: none;
+    box-shadow: 0px 0px 2px gray;
+    border-radius: 0.5em;
+
+}
+
+#confirm-yes:hover{
+    box-shadow: 0px 0px 6px gray;
+}
+
+#confirm-no:hover{
+    box-shadow: 0px 0px 6px gray;
+}
+
+#confirm-yes:active{
+    box-shadow: 0px 0px 2px black;
+    background: linear-gradient(to left , rgba(7, 241, 7, 0.863), rgba(23, 112, 23, 0.582));
+    color: white;
+}
+
+#confirm-no:active{
+    box-shadow: 0px 0px 2px black;
+    background: linear-gradient(to left, rgba(255, 0, 0, 0.74), rgba(219, 51, 79, 0.349));
+    color: white;
+}

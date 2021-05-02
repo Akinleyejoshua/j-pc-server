@@ -1,0 +1,33 @@
+#loader{
+
+    height: 4em;
+    width: 4em;;
+    background: rgba(255, 255, 255, 0);
+    border: 0.5em solid whitesmoke;
+    border-radius: 50%;
+    border-top-color: rgba(0, 0, 0, 0.5);
+    animation:1s infinite linear load;
+    display:inline-flex;
+    justify-content: space-around;
+    z-index: 1;
+    position: absolute;
+    margin: 30%;
+
+}
+
+@keyframes load{
+    from {transform: rotate(0deg)}
+    to {transform: rotate(360deg)}
+}
+
+#loader-body{
+
+    background: rgba(8, 8, 8, 0.5);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: inline-flex;
+    justify-content: space-around;
+    top: 0.0%;
+    left: 0.0%;
+}

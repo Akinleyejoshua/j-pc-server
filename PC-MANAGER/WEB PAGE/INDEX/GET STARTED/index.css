@@ -1,0 +1,175 @@
+body{
+    font-family: monospace;
+    background-image: url("index.jpg");
+    background-size: 100%;
+    
+}
+
+#logo{
+    background-image: url("../logo.png");
+    background-size: 100%;
+    padding: 5em;
+    background-repeat: no-repeat;
+    border: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+
+}
+
+header{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    border: none;
+}
+
+#menu{
+    display: flex;
+    flex-flow: row;
+    list-style: none;
+    padding: 1em;
+}
+
+#menu, li{
+    margin: 1em;
+    color: rgba(0, 0, 0, 0.76);
+    padding: 1em;
+    transition: 0.5s;
+    border-radius: 1em;
+}
+
+#menu li:hover{
+    /* background: linear-gradient(to right, rgba(0, 0, 255, 0.185), rgba(0, 162, 255, 0.253)); */
+    /* box-shadow: 1px 1px 1px gray; */
+    color: white;
+    border: white solid 0.1em;
+}
+
+#info-header{
+    padding: 1%;
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 0px 1px gray;
+    text-align: center;
+}
+
+#info-body{
+    padding: 10%;
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 0px 0.5px rgba(128, 128, 128, 0.466);
+    text-align: center; 
+    position: relative;
+    top: 5em;
+    color: rgba(0, 68, 255, 0.5);
+}
+
+#begin{
+    border: none;
+    padding: 1em 2em;
+    color: white;
+    background: linear-gradient(to right, rgba(0, 0, 255, 0.185), rgba(0, 162, 255, 0.253));
+    box-shadow: 2px 2px 2px gray;
+    border-radius: 0.5em;
+    font-size: 1em;
+}
+
+#begin{
+    margin: 10%;
+   text-align-last: center;
+}
+
+#begin:hover{
+    box-shadow: 1px 2px 6px black;
+}
+
+#begin:active{
+     background: whitesmoke;
+    color: rgba(0, 0, 0, 0.753);
+    box-shadow: 0px 1px 1px gray;
+
+}
+form{
+    padding:1em;
+    text-align: center;
+    box-shadow: 0px 0px 2px gray;
+    border:none;
+    border-radius: 0.5em;
+}
+
+fieldset{
+    border: none;
+    display: inline-flex;
+    flex-flow: column;
+    margin: 5%;
+}
+input{
+    margin: 4%;
+    border-top-color: white;
+    border-bottom-color:rgb(135, 153, 235);
+    border-right-color: white;
+    border-left-color: white;
+    background:none;
+    border-style: double;
+}
+
+#button-div{
+    margin: 1%;
+    padding: 1em;
+    display: inline-flex;
+    flex-flow: row;
+}
+
+#sign-up{
+    border: none;
+    padding: 1em 1.5em;
+    color: white;
+    background: linear-gradient(to right, rgba(0, 0, 255, 0.185), rgba(0, 162, 255, 0.253));
+    box-shadow: 2px 2px 2px gray;
+    border-radius: 0.5em;
+    font-size: 0.5em;
+}
+
+#sign-up{
+    margin: 10%;
+   text-align-last: center;
+}
+
+#sign-up:hover{
+    box-shadow: 1px 2px 6px black;
+}
+
+#sign-up:active{
+     background: whitesmoke;
+    color: rgba(0, 0, 0, 0.753);
+    box-shadow: 0px 1px 1px gray;
+
+}
+
+#sign-in{
+    border: none;
+    padding: 1em 1.5em;
+    color: white;
+    background: linear-gradient(to right, rgba(0, 0, 255, 0.185), rgba(0, 162, 255, 0.253));
+    box-shadow: 2px 2px 2px gray;
+    border-radius: 0.5em;
+    font-size: 0.5em;
+}
+
+#sign-in{
+    margin: 10%;
+   text-align-last: center;
+}
+
+#sign-in:hover{
+    box-shadow: 1px 2px 6px black;
+}
+
+#sign-in:active{
+     background: whitesmoke;
+    color: rgba(0, 0, 0, 0.753);
+    box-shadow: 0px 1px 1px gray;
+
+}
+
